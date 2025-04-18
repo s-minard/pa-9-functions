@@ -1,6 +1,6 @@
 ---
 title: "PA 9: Writing Functions"
-author: "INSERT NAMES HERE"
+author: "Sam, Van Jacob"
 format: 
   html:
     embed-resources: true
@@ -68,6 +68,11 @@ ifelse(nums %% 9 == 0 | nums %% 12 == 0, yes = FALSE , no = TRUE)  #it should sa
 
 no_nines_or_twelves <- function(vec) {
 
+  ifelse(
+         vec %% 9 == 0 | vec %% 12 == 0, 
+         yes = FALSE , 
+         no = TRUE)
+  
 }
 
 ```
